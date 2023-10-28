@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #333399, #ff00cc);
+}
+
+.container {
+    --font-color: #323232;
+    --font-color-sub: #666;
+    --bg-color: #fff;
+    --main-color: #ab6f9f;
+    --main-focus: #2d8cf0;
+    width: 350px;
+    height: 400px;
+    background: var(--bg-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #332902;
+    border-bottom: 2px solid #332902;
+    margin-bottom: 20px;
+    font-size: 16px;
+    cursor: none;
+    background: linear-gradient(to bottom,rgb(192, 190, 138),rgb(179, 178, 155));
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.075);
+}
+
+h1 {
+    color: #7f754e;
+    font-family: 'Josefin';
+}
+
+.container .message input {
+    border: 1px solid #332902;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    color: #332902;
+    text-transform: uppercase;
+    border-bottom: 2px solid #332902;
+    letter-spacing: 5px
+}
+
+.container .btn input[type="submit"]{
+    border: 1px solid #332902;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    color: #332902;
+    text-transform: uppercase;
+    border-bottom: 2px solid #332902;
+    letter-spacing: 5px;
+    font-weight: bold;
+    overflow: hidden;
+    border-radius: 25px;
+    background: linear-gradient(to bottom,rgb(192, 190, 138),rgb(179, 178, 155));
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #332902;  
+}  
