@@ -9,21 +9,21 @@
         <h1>Contact</h1>
         <form onsubmit="emailSend(); reset(); return false;">
     
-            <input type="text" id="name" placeholder="Name">
-            <input type="text" id="email" placeholder="email">
-            <input type="text" id="subject"  placeholder="subject">
-            <input type="text" id="message" placeholder="message">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="email" placeholder="email" required>
+            <input type="text" id="subject"  placeholder="subject" required>
+            <textarea id="message" rows="4" placeholder="leave your message here"></textarea>
             <div class="btn">
                 <input type="submit" value="submit" onclick="sendMail()">
             </div>
         </form>
     </div>
     <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        src="link here">
     </script>
     <script type="text/javascript">
         (function(){
-            emailjs.init("jnnxdvWadAgezes76");
+            emailjs.init("your id here");
         })();
     </script>
     </script>

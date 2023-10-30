@@ -6,5 +6,5 @@ function sendMail(){
         message : document.getElementById('message').value,
     }
 
-    emailjs.send("form","template_wpgl2fj",parms).then(alert('email has been sent'))
+    emailjs.send("form","your id template here",parms).then(alert('message has been sent'))
 }
